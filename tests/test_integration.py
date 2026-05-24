@@ -1,5 +1,4 @@
 """Integration tests across the full pipeline."""
-import pytest
 
 from tinytemplate import (
     Template,
