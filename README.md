@@ -1,9 +1,5 @@
 # tinytemplate
 
-[![Tests](https://img.shields.io/badge/tests-121%20passing-brightgreen)](#running-tests)
-[![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](#running-tests)
-[![Type](https://img.shields.io/badge/typed-mypy%20--strict-blue)](#running-tests)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Zero-dependency `${name}` template renderer with default fallbacks,
 dotted-path access, and small filter chains. Pure Python, no parser
@@ -25,7 +21,7 @@ render("${name|upper}", {"name": "alice"})
 ## Install
 
 ```bash
-pip install tinytemplate
+python -m pip install -e .
 ```
 
 Requires Python 3.10+.
